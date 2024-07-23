@@ -1,8 +1,7 @@
 name: Deployoment Exercise1
-on : push
+on: push
 jobs: 
- 
-  lint:
+ deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Get code
